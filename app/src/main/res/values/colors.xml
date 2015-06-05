@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pulltofresh">#3AAFC2</color>
+    <color name="transparent">#0000</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="weibo_listtab_off">#8d8d8d</color>
+    <color name="gray">#808080</color>
+    <color name="red">#F01F1F</color>
+    <color name="greyback">#333</color>
+    <color name="card_back">#e3e2e7</color>
+    <color name="green">#149640</color>
+    <color name="blue">#1A13AA</color>
+    <color name="yellow">#CBD814</color>
+    <color name="pink">#D70FD0</color>
+    <color name="light_blue">#0FD7BF</color>
+    <color name="light_green">#83E619</color>
+    <color name="light_yellow">#E5F063</color>
+    <color name="chi">#F09963</color>
+    <color name="light_red">#F50F45</color>
+    <color name="headbar_blue">#2F96B4</color>
+    <color name="info">#5BC0DE</color>
+    <color name="blue1">#00979a</color>
+    <color name="blue2">#00bcd4</color>
+    <color name="blue4">#009688</color>
+    <color name="blue3">#212121</color>
+    <color name="blue5">#727272</color>
+</resources>

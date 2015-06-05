@@ -1,0 +1,25 @@
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/card_back">
+        <com.example.root.freshsoccernews.HeadBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_headbar">
+
+            </com.example.root.freshsoccernews.HeadBar>
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             >
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            </FrameLayout>
+
+    </LinearLayout>

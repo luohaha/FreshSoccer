@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <com.example.root.freshsoccernews.HeadBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_headbar">
+
+    </com.example.root.freshsoccernews.HeadBar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ImageView
+        android:id="@+id/content_background_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_title"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:lineSpacingExtra="3dip"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="18sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="10dip"
+        android:background="@color/card_back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_detail"
+        android:typeface="serif"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="3dip"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

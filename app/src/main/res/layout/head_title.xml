@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/info" >
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_alignParentLeft="true"
+        android:id="@+id/button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        bootstrap:bb_icon_left="fa-close"
+        bootstrap:bb_type="info"
+        bootstrap:bb_size="small">
+
+    </com.beardedhen.androidbootstrap.BootstrapButton>
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/button_left_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button_left"
+        android:text=""
+        bootstrap:bb_icon_left="fa-search"
+        bootstrap:bb_type="info"
+        bootstrap:bb_size="small">
+
+    </com.beardedhen.androidbootstrap.BootstrapButton>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dip"
+        android:text="This is Title"
+        android:visibility="gone"
+        android:textColor="#fff"
+        android:typeface="serif"
+        android:textSize="18sp" />
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/info">
+
+        <RadioButton
+            android:checked="true"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="国内"
+            android:layout_marginRight="2dip"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:textColor="@drawable/headbar_text_selector"
+            android:textSize="20sp"
+            android:id="@+id/radiobution_1"
+            android:background="@drawable/headbar_selector"
+            android:drawableTop="@null"
+            android:button="@null"
+            />
+
+        <RadioButton
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="国际"
+            android:layout_marginLeft="2dip"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:textColor="@drawable/headbar_text_selector"
+            android:textSize="20sp"
+            android:id="@+id/radiobution_2"
+            android:background="@drawable/headbar_selector"
+            android:drawableTop="@null"
+            android:button="@null"
+            />
+
+    </RadioGroup>
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/button_right_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/button_right"
+        android:text=""
+        bootstrap:bb_icon_left="fa-refresh"
+        bootstrap:bb_type="info"
+        bootstrap:bb_size="small">
+
+    </com.beardedhen.androidbootstrap.BootstrapButton>
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text=""
+        bootstrap:bb_icon_left="fa-flickr"
+        bootstrap:bb_type="info"
+        bootstrap:bb_size="small">
+
+    </com.beardedhen.androidbootstrap.BootstrapButton>
+
+</RelativeLayout>
