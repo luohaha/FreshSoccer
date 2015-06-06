@@ -19,4 +19,5 @@
 ##使用的开源库
 [Android-Bootstrap](https://github.com/Bearded-Hen/Android-Bootstrap)  
 [ion](https://github.com/koush/ion)  
-[Phoenix](https://github.com/Yalantis/Phoenix)
+[Phoenix](https://github.com/Yalantis/Phoenix)  
+[ViewPagerTransforms](https://github.com/ToxicBakery/ViewPagerTransforms)
