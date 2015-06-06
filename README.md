@@ -12,10 +12,11 @@
 ![](http://img.wdjimg.com/mms/screenshot/b/30/f95c46e48e76eec8ee1c9555f924e30b_320_570.jpeg)
 
 ##下载地址
-1.豌豆荚上搜索“新鲜足球”
+1.豌豆荚上搜索“新鲜足球”  
+
 2.[点击下载](http://www.wandoujia.com/apps/com.example.root.freshsoccernews)
 
 ##使用的开源库
-[Android-Bootstrap](https://github.com/Bearded-Hen/Android-Bootstrap)
-[ion](https://github.com/koush/ion)
+[Android-Bootstrap](https://github.com/Bearded-Hen/Android-Bootstrap)  
+[ion](https://github.com/koush/ion)  
 [Phoenix](https://github.com/Yalantis/Phoenix)
