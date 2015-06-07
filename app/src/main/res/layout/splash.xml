@@ -12,6 +12,5 @@
         android:gravity="center"
         android:layout_gravity="center"
         android:typeface="monospace"
-        android:text="新鲜足球
-        v1.0"/>
+        android:text="新鲜足球"/>
 </LinearLayout>
