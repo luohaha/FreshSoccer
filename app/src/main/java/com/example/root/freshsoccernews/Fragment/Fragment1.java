@@ -41,8 +41,8 @@ public class Fragment1 extends Fragment {
         //mList = new ArrayList<HashMap<String, Object>>();
         initHeadBar();
         initRefreshView();
-        SinapageModule sinapageModule = new SinapageModule(getActivity(), mAdapter, mListView);
-        sinapageModule.refreshDb(1);
+        SinapageModule sinapageModule = new SinapageModule(getActivity(), mAdapter, mListView, null);
+        sinapageModule.ReadDb();
         initListView();
         Log.i("fragment test->", "create view");
         //getDataFromDb();
@@ -102,11 +102,11 @@ public class Fragment1 extends Fragment {
                 mPullToRefreshView.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        SinapageModule sinapageModule = new SinapageModule(getActivity(), mAdapter, mListView);
-                        sinapageModule.refreshDb(1);
-                        mPullToRefreshView.setRefreshing(false);
+                        SinapageModule sinapageModule = new SinapageModule(getActivity(), mAdapter, mListView, mPullToRefreshView);
+                        sinapageModule.refreshDb();
+                        //mPullToRefreshView.setRefreshing(false);
                     }
-                }, 100);
+                }, 10);
             }
         });
     }

@@ -40,8 +40,8 @@ public class Fragment2 extends Fragment {
        // mList = new ArrayList<HashMap<String, Object>>();
         initHeadBar();
         initRefreshView();
-        HupupageModule hupupageModule = new HupupageModule(getActivity(), mAdapter, mListView);
-        hupupageModule.refreshDb(1);
+        HupupageModule hupupageModule = new HupupageModule(getActivity(), mAdapter, mListView, null);
+        hupupageModule.ReadDb();
         initListView();
       //  getDataFromDb();
         return mView;
@@ -99,11 +99,11 @@ public class Fragment2 extends Fragment {
                 mPullToRefreshView.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        HupupageModule hupupageModule = new HupupageModule(getActivity(), mAdapter, mListView);
-                        hupupageModule.refreshDb(1);
-                        mPullToRefreshView.setRefreshing(false);
+                        HupupageModule hupupageModule = new HupupageModule(getActivity(), mAdapter, mListView, mPullToRefreshView);
+                        hupupageModule.refreshDb();
+                        //mPullToRefreshView.setRefreshing(false);
                     }
-                }, 100);
+                }, 10);
             }
         });
     }
